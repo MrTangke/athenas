@@ -19,6 +19,7 @@ import javax.sql.DataSource;
 @ComponentScan(basePackages = "com.alibaba")
 public class Application {
 
+    //启动程序
     public static void main(String[] args) {
         SpringApplication.run(Application.class, args);
     }
